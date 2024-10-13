@@ -1,0 +1,36 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+.but {
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 80px;
+  height: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 8px;
+}
+.para {
+  font-size: 20px;
+}
+.inputEdit {
+  width: 50%;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.cant {
+  margin-bottom: 10px;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.inputbegin{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}

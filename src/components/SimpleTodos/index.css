@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ff8542;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.unorder {
+  list-style-type: none;
+  width: 80%;
+}
+.addCont {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputEle {
+  width: 40%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 8px;
+}
+.addbut {
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 50px;
+  cursor: pointer;
+  outline: none;
+}

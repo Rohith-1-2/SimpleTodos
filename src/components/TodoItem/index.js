@@ -9,8 +9,11 @@ class TodoItem extends Component {
     deleteItem(things.id)
   }
   editing = () => {
+    const {things} = this.props
+    const {title} = things
     this.setState({
       cond: false,
+      taskTitle: title
     })
   }
   saving = () => {
@@ -54,7 +57,8 @@ class TodoItem extends Component {
           <input
             onChange={this.changeTitle}
             className="inputEdit"
-            type="text"
+            type="text" 
+            defaultValue={taskTitle}
           />
           <div>
             <button onClick={this.saving} className="but cant">
